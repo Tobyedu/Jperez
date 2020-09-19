@@ -1,0 +1,58 @@
+.caja-seccion img{
+    width: 70%;
+    height: 70%;
+   
+
+}
+.caja-seccion {
+    
+  
+    width: 300px;
+    border: 5px solid #313131;
+    padding: 50px;
+    height: 250px;
+  
+    text-align: center;
+    margin: auto;
+    margin-bottom: 50px ; 
+    text-transform: uppercase;
+    
+}
+#cajita{
+    display: flex;
+    flex-wrap: wrap;
+    width: 90%;
+   
+    margin: auto;
+   
+}
+.caja-seccion h2{
+    text-align: center;
+    border: 5px solid #95ca3e;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+.caja-seccion input{
+    float: left;
+    border: 3px solid blue;
+    width: 100px;
+    outline: none;
+    margin-top: 2px;
+    margin-right: 2px ;
+    padding: 5px;
+    text-align: center;
+    
+}
+#cajita a{
+    /* justify-content: center; */
+    display: inline-block;
+    /* margin-left: 30px; */
+    background: rgb(253, 60, 60);
+    text-decoration: none;
+    padding: 5px;   
+    margin-bottom: 10px;
+    width: 150px;
+    color: white;
+    border: 3px solid #95ca3e
+    
+}

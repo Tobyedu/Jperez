@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+header{
+    background: #95ca3e;
+    width: 100%;
+    height: 50px;
+    color: white;
+}
+header h1{
+    float: left;
+   font-size: 28px;
+   margin-left: 20px;
+   margin-top: 8px;
+}
+header .a{
+    float: right;
+    padding: 10px;
+    margin-right: 10px;
+    text-decoration: none;
+    color: white;
+    margin-top: 5px ;
+}
+header .perez {
+    color: white;;
+}
+.image img{
+
+    width: 250px;
+    height: 200px;
+   
+}
+.image{
+    margin: 20px ;
+    border: 3px solid #95ca3e;
+    width: 250px;
+    height: 500px;
+    padding: 10px;
+    text-align: center;
+    margin-top: 42px;
+    float: left;
+ 
+}
+.perfil{
+    padding: 10px;
+    text-transform: uppercase;
+    margin-top: 10px;
+    
+    
+    
+}
+.edit{
+    position: absolute;
+    width: 950px;
+    height: 480px;
+    /* margin-top: 0px; */
+    top: 90px;
+    left: 350px;
+    margin-right: 80px;
+    float: right;
+    padding: 20px;
+    border: 5px solid #95ca3e;
+}
+.in{
+    width: 350px;
+    margin: 10px;
+    height: 30px;
+    outline: none;
+    border: 2px solid grey;
+    border-radius: 20px;
+    text-align: center;
+}
+.n{
+    margin-left: 10px;
+    font-size: 15px;
+    text-transform: uppercase;
+
+}
+.foto{
+    display: inline-block;
+    width: 180px;
+    height: 20px;
+    background: #95ca3e;
+    text-decoration: none;
+    padding: 3px;
+    margin-top: 20px;
+    color: white;
+    padding-top: 5px;
+    border: 2px solid black;
+    
+}
+.btn{
+    float: right;
+    width: 100px;
+    height: 30px;
+    margin-top: 50px;
+    background: rgb(211, 44, 44);
+    border: 2px solid #95ca3e;
+    cursor: pointer;
+    color: white;
+}

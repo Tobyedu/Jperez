@@ -1,0 +1,25 @@
+
+footer .contenedor{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 25px;
+}
+.copy{
+    font-size: 25px;
+}
+.redes-sociales{
+    width: 100%;
+    text-align: center;
+    font-size: 28px;
+}
+.redes-sociales a{
+    color: #000;
+    text-decoration: none;
+}
+/* @media (min-width:1024px){
+    body{
+        background: red;    
+    }
+      
+} */

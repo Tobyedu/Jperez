@@ -1,0 +1,109 @@
+@import url(productos.css);
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+header{
+   
+    width: 100%;
+    background: #95ca3e;
+    height: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 30px ;
+  
+    
+}
+header .contenedor-main{
+    width: 90%;
+    margin: auto;
+   
+}
+header a h1{
+    text-decoration: none;
+    color: white;
+    font-size: 28px;
+    float: left;
+}
+header .buscador input{
+   
+    float: right;
+    top: 0%;
+    position: absolute;
+    margin-left: 85px;
+
+    border: 3.5px solid  #98e41d;
+    border-radius: 8px;
+    padding: 2px;
+    outline: none;
+    text-align: center;
+    
+}
+header input{
+    width: 500px;
+    height: 25px;
+    /* border-radius: 10px; */
+
+   margin: 8px;
+    
+}
+i{
+    color: white;
+}
+#compra{
+    display: inline-block;
+    text-decoration: none;
+    margin-left: 810px;
+    
+    background: #98e41d;
+    width: 140px;
+    height: 30px;
+    position: absolute;
+    margin-top: -20px;
+    color: white;
+    /* padding: 1px; */
+    text-align: center;
+    padding-top: 3px;
+    border: 3px solid green;
+    font-size: 15px;
+}
+.navegita{
+    
+    width: 87.5%;
+    border: 5px solid #98e41d;
+    margin-left: 71px;
+    margin-bottom: 20px;
+    background: violet;
+    height: 20px;
+    padding: 10px;
+}
+.navegita .naveg a{
+    
+    
+    text-decoration: none;
+    padding: 10px;
+    color: white;
+    font-size: 15px;
+    text-transform: uppercase;
+    margin: 50px;
+}
+.navegita .naveg a:hover{
+    background: red;
+}
+.titu{
+   
+   
+    top: 50px;
+    border: 4px solid green;
+    text-align: center;
+    margin: auto;
+    margin-top: -20px;
+    margin-bottom: 20px;
+    width: 300px;
+    height: 35px;
+    font-size: 30px;
+    background: #95ca3e;
+    color: white;
+}

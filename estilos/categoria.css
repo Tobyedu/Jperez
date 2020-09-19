@@ -1,0 +1,39 @@
+.categorias .contenedor{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+   
+   
+}
+.categorias article{
+   
+    /* border: 2px solid red; */
+   
+    margin: 50px;
+
+}
+.categorias img{
+    width: 100%;
+    max-width: 280px;
+    border-radius: 70%;
+    border: 6px solid #313131;
+    
+    
+}
+.categorias h3, h4{
+    text-align: center;
+    text-transform: uppercase;
+}
+.categorias a{
+    text-decoration: none;
+    color: black;
+}
+.categorias h4{
+    text-transform: uppercase;
+    margin: 12px;
+
+}
+.categorias p{
+    margin: 15px;
+    text-transform: uppercase;
+}

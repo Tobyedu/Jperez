@@ -1,0 +1,153 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+header{
+    width: 100%;
+    background: #95ca3e;
+    height: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 30px ;
+    
+}
+header .contenedor-main{
+    width: 90%;
+    margin: auto;
+   
+}
+header a h1{
+    text-decoration: none;
+    color: white;
+    font-size: 28px;
+    float: left;
+}
+header .buscador input{
+   
+    float: right;
+    top: 0%;
+    position: absolute;
+    margin-left: 90px;
+
+    border: 3.5px solid  #98e41d;
+    border-radius: 8px;
+    padding: 2px;
+    outline: none;
+    
+}
+header input{
+    width: 500px;
+    height: 25px;
+    /* border-radius: 10px; */
+
+   margin: 8px;
+   text-align: center;
+    
+}
+i{
+    color: white;
+}
+#compra{
+    display: inline-block;
+    text-decoration: none;
+    margin-left: 810px;
+    
+    background: #98e41d;
+    width: 140px;
+    height: 30px;
+    position: absolute;
+    margin-top: -20px;
+    color: white;
+    /* padding: 1px; */
+    text-align: center;
+    padding-top: 3px;
+    border: 3px solid green;
+    font-size: 15px;
+}
+.caja-seccion img{
+    width: 70%;
+    height: 70%;
+   
+
+}
+.caja-seccion {
+    
+  
+    width: 300px;
+    border: 5px solid #313131;
+    padding: 50px;
+    height: 250px;
+  
+    text-align: center;
+    margin: auto;
+    margin-bottom: 30px ; 
+    text-transform: uppercase;
+    margin-top: 30px;
+    
+}
+#cajita{
+    display: flex;
+    flex-wrap: wrap;
+    width: 90%;
+   
+    margin: auto;
+   
+}
+.caja-seccion h2{
+    text-align: center;
+    border: 5px solid #95ca3e;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+.caja-seccion input{
+    float: left;
+    border: 3px solid blue;
+    width: 100px;
+    outline: none;
+    margin-top: 2px;
+    margin-right: 2px ;
+    padding: 5px;
+    text-align: center;
+    
+}
+#cajita a{
+    /* justify-content: center; */
+    display: inline-block;
+    /* margin-left: 30px; */
+    background: rgb(253, 60, 60);
+    text-decoration: none;
+    padding: 5px;   
+    margin-bottom: 10px;
+    width: 150px;
+    color: white;
+    border: 3px solid #95ca3e;
+    
+}
+.alguitos{
+    /* background: chartreuse; */
+    position: absolute;
+    width: 100px;
+    height: 40px;
+    top: 62px;
+    left: 70px;
+    color: black;
+}
+.alguitos i{
+    font-size: 40px;
+    color: black;
+    cursor: pointer;
+}
+.h{
+    width: 100px;
+    border: 4px solid red;
+    top: 6px;
+    left: 40px;
+    position: absolute;
+    background: #95ca3e;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    font-size: 20px;
+    text-transform: uppercase;
+    color: white;
+}
